@@ -1,0 +1,22 @@
+{
+  "name": "tylerschwartz.ca",
+  "description": "Tyler Schwartz' portfolio",
+  "main": "index.html",
+  "authors": [
+    "Tyler Schwartz <schwartz.tyler@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "ts-app": "^1.0.0",
+    "ts-avatar": "^1.0.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "short_name": "TSchwartz",
+    "name": "Tyler Schwartz' portfolio",
+    "theme_color": "#fff",
+    "background_color": "#fff",
+    "icons": [],
+    "start_url": "/",
+    "display": "standalone"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "tylerschwartz.ca",
+  "version": "1.0.0",
+  "description": "Tyler Schwartz' portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "nps"
+  },
+  "author": "Tyler Schwartz <schwartz.tyler@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-minify": "^0.4.0",
+    "bower": "^1.8.4",
+    "browser-sync": "^2.23.6",
+    "cpx": "^1.5.0",
+    "crisper": "^2.1.1",
+    "html-minifier": "^3.5.14",
+    "mkdirp": "^0.5.1",
+    "nps": "^5.9.0",
+    "nps-utils": "^1.5.0",
+    "onchange": "^3.3.0",
+    "polymer-bundler": "^3.1.1"
+  }
+}

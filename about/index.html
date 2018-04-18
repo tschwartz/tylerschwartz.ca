@@ -1,0 +1,50 @@
+<!doctype html>
+<html amp lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Tyler Schwartz :: Software Engineer :: About</title>
+        <meta name="description" content="The portfolio of Tyler Schwartz">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="theme-color" content="#fff">
+        <link rel="manifest" href="/manifest.json">
+        <script>
+            {
+                if ('serviceWorker' in navigator) {
+                    window.addEventListener('load', function() {
+                        navigator.serviceWorker.register('/sw.js').then(registration => {
+                            // Registration success
+                            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                        }), err => {
+                            // Registration fail
+                            console.log('ServiceWorker registration failed: ', err);
+                        };
+                    });
+                }
+            }
+        </script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.1.1/webcomponents-loader.js"></script>
+        <link rel="import" href="/dist/ts-elements.html">
+    </head>
+    <body>
+        <ts-avatar>
+            <img src="/public/images/image.jpg" alt="Tyler Schwartz' avatar" />
+        </ts-avatar>
+        <ts-app>
+            <h1>About</h1>
+            <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="/about/">about</a></li>
+                <li><a href="/work/">work</a></li>
+                <li><a href="/contact/">contact</a></li>
+            </ul>
+        </ts-app>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-90276807-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>
